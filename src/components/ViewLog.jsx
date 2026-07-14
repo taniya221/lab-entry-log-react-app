@@ -1,7 +1,7 @@
 import axios from 'axios'
-import React, { useEffect } from 'react'
-        
-   const ViewTable = () => {
+import React, { useEffect, useState } from 'react'
+
+const ViewLog = () => {
 
     const [data, changeData] = useState([])
 
@@ -71,8 +71,6 @@ import React, { useEffect } from 'react'
         </div>
     )
 }
-    </div>
-  )
-}
+
 
 export default ViewLog
