@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavigationBar from './NavigationBar'
 
 const AddLog = () => {
 
@@ -45,6 +46,7 @@ const AddLog = () => {
     return (
 
         <div>
+            <NavigationBar />
             
             <div className="container">
                 <div className="row">
